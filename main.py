@@ -16,5 +16,11 @@ def save_user(user):
     user.save_user()
 
 
+def check_saved_users(user_name):
+    """
+        Will check if a user exists with the username
+    """
+    return User.user_exists(user_name)
+
 
         
