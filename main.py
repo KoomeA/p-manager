@@ -31,7 +31,7 @@ def add_credential(account_type, user_name, password):
 
 # here we now save the new credential
 def save_credential(credential):
-    credential.save_credentaial()
+    credential.save_credential()
     
 
 def main():
@@ -102,11 +102,11 @@ def main():
             print('\n')
         
         elif short_code == 'ds':
-            if display_credentials():
+            if display_credential():
                 print("Here is a list of your credentials")
                 print('\n')
 
-                for Credential in display_credentials():
+                for Credential in display_credential():
                     print(f"{Credential.account_type}..{Credential.user_name} ..{Credential.password}")
                     print('\n')
 

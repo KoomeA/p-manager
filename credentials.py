@@ -37,7 +37,7 @@ class Credential:
         """
             returns the credential list
         """
-        return cls.Credential_list
+        return cls.credential_list
 
 
         

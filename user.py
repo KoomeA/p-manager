@@ -25,7 +25,7 @@ class User:
         """
         The method checks if a user exists in the user_names
         """
-        for user in cls.user_names:
+        for user in cls.user_name:
             if user.user_name == user_name:
                 return True
         return False
