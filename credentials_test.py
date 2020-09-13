@@ -14,6 +14,10 @@ class TestCredential(unittest.TestCase):
         Credential.credential_list = []
 
     def test_init(self):
+        """
+            
+
+        """
         self.assertEqual(self.new_credential.account_type, "Google")
         self.assertEqual(self.new_credential.user_name, "Pros")
         self.assertEqual(self.new_credential.generate_password, "0000")
@@ -46,4 +50,3 @@ class TestCredential(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-    
