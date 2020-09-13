@@ -18,3 +18,6 @@ To run the application, download the code and run the main.py file. Follow the s
 - Python
 - Unittest
 - TDD
+
+# License
+[MIT License](https://raw.githubusercontent.com/KoomeA/p-manager/master/LICENCE)
